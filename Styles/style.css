@@ -15,6 +15,11 @@ body{
     width: 1050px;
     margin: 0 auto;
 }
+.Section-title{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 80px;
+}
 
 /* ---- Common styles ---- */
 
@@ -91,10 +96,7 @@ header{
 
 /* ---- Newa section style ---- */
 
-.Section-title{
-    font-size: 50px;
-    text-align: center;
-}
+
 .breaking-newses{
     display: flex;
 }
@@ -161,6 +163,11 @@ header{
 .related-newses-content h3{
     font-size: 14px;
     text-align: center;
+    margin: -7px 0;
+    padding: 16px 5px;
+    border: 1px solid #dbdbdb;
+    height: 62px;
+    
 }
 
 
@@ -193,3 +200,107 @@ footer{
 }
 
 /* ---- Footer Styles ---- */
+
+
+/* --- Responsive Styles --Mobile_View --- */
+
+@media only screen and (max-width: 480px){
+
+    /* --- common Styles for responsives --- */
+
+    .container {
+        width: 90%;
+    }
+    .Section-title {
+        font-size: 37px;
+    }
+
+    /* --- common Styles for responsives --- */
+     
+    /* --- Top-banner-responsive-styles --- */
+
+    header {
+        height: 584px;
+    }
+    .top-banner {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .top-banner-left {
+        width: 100%;
+    }
+    .top-banner-left h1 {
+        font-size: 35px;
+        padding-right: 0;
+        margin-top: 40px;
+    }
+    .top-banner-right {
+        width: 100%;
+    }
+    .top-banner-right img {
+        max-width: 100%;
+        margin-top: 55px;
+    }
+    .top-banner-left a {
+        font-size: 15px;
+    }
+
+    /* --- Top-banner-responsive-styles --- */
+
+    /* --- players feedback responsive --- */
+
+    .blogs {
+        grid-template-columns: repeat(1,100%);
+        margin-top: 70px;
+    }
+    .breaking-newses {
+        display: block;
+    }
+    .breaking-newses-left {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .breaking-newses-left img {
+        height: 330px;
+    }
+    .breaking-newses-left h3 {
+        font-size: 16px;
+    }
+    .breaking-newses-right {
+        width: 100%;
+    }
+    .top-all-news {
+        margin: 0;
+    }
+    .top-newses-details h4 {
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+    }
+
+    /* --- players feedback responsive --- */
+
+    /* --- Related News responsive --- */
+
+    .related-newses-serial {
+        grid-template-columns: repeat(1,100%);
+    }
+
+    /* --- Related News responsive --- */
+
+    /* --- footer responsive --- */
+
+    .footer-content {
+        width: 100%;
+    }
+
+    /* --- footer responsive --- */
+
+
+}
+
+
+/* --- Responsive Styles --Mobile_View --- */
+
