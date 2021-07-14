@@ -146,6 +146,26 @@ header{
 
 /* ---- Newa section style ---- */
 
+/* ---- related newses styles ---- */
+
+.related-newses-serial{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 70px;
+    gap: 25px;
+}
+.related-newses-content img{
+    width: 100%;
+    height: 200px;
+}
+.related-newses-content h3{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* ---- related newses styles ---- */
+
 /* ---- Footer Styles ---- */
 
 footer{
