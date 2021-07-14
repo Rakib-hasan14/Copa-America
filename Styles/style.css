@@ -50,9 +50,12 @@ header{
     text-decoration: none;
     background: #E02C6D;
     padding: 10px 24px 10px 24px;
+    font-size:  20px;
 }
 .top-banner-left a i{
     margin-left: 10px;
+    transition: 0.9s;
+    font-size: 15px;
 }
 
 .top-banner-right{
@@ -64,6 +67,19 @@ header{
 }
 
 /* ---- Top banner Style ---- */
+
+/* --- Top banner transition --- */
+
+
+header:hover .top-banner-left a i{
+    font-size: 22px;
+    transform: rotate(360deg);
+}
+
+
+/* --- Top banner transition --- */
+
+
 
 /* ---- Blog section Style ---- */
 
@@ -154,7 +170,8 @@ header{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 70px;
-    gap: 25px;
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
 }
 .related-newses-content img{
     width: 100%;
@@ -303,4 +320,6 @@ footer{
 
 
 /* --- Responsive Styles --Mobile_View --- */
+
+
 
